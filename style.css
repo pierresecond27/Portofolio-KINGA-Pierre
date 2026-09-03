@@ -225,6 +225,7 @@ button, input, textarea {
 
 .section-title span {
   background: linear-gradient(120deg, var(--accent-cyan), #3b82f6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -463,6 +464,7 @@ button, input, textarea {
 .typing-text {
   background: linear-gradient(120deg, var(--accent-cyan), #38bdf8);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
